@@ -32,9 +32,9 @@ func1(123);
 // 에러
 // 타입스크립트는 지금 변수의 타입이 확실하지 않으면 마음대로 연산할 수 없다.
 // 항상 타입이 무엇인지 미리 체크하는 narrowing 또는 assertion 문법을 사용해야 허락해준다.
-function 함수명1(x) {
-    return x * 2;
-}
+// function 함수명1(x :number | string) {
+//     return x * 2
+// }
 // 가능
 function 함수명2(x) {
     if (typeof x === 'number') {
