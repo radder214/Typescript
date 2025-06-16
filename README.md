@@ -3,5 +3,32 @@
 - Typescript 컴파일시 세부설정 (tsconfig.json)
 - 타입스크립트 기본 타입 정리 (primitive types)
 - 타입 미리 정하기 애매할 때 (union any, unknown)
+- 함수에 타입 지정하는 법 & void 타입
+- 타입 확정하기 Narrowing & Assertion
+- 타입도 변수에 담아쓰세요 type 키워드 써서 & readonly
+- Literal Types로 만드는 const 변수 유사품
+- 함수와 methods에 type alias 지정하는 법
+- 타입스크립트로 HTML 변경과 조작할 때 주의점
+- (JS문법시간) class 키워드 알아보기
+- (JS 문법시간) prototype 문법 짚어보기
+- class 만들 때 타입지정 가능
+- Object에 타입지정하려면 interface 이것도 있음
 
 # Part 2. 알면 도움은 되는 내용
+- 함수 rest 파라미터, destructuring 할 때 타입지정	
+- Narrowing 할 수 있는 방법 더 알아보기	
+- 함수에 사용하는 never 타입도 있긴 합니다	
+- public, private 쓰는거 보니까 타입스크립트 귀여운편	
+- class에서 사용가능한 protected, static 키워드	
+- 저번시간 숙제 해설 (class 만들기)	
+- 타입도 import export 해서 씁니다 그리고 namespace	
+- 타입을 파라미터로 입력하는 Generic	
+- React + TypeScript 사용할 때	
+- React + TypeScript 사용할 때 2 : Redux toolkit	
+- array 자료에 붙일 수 있는 tuple type	
+- 외부 파일 이용시 declare & 이상한 ambient module	
+- d.ts 파일 이용하기	
+- implements 키워드	
+- object index signatures	
+- object 타입 변환기 만들기	
+- 조건문으로 타입만들기 & infer
