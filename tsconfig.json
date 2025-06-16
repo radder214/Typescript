@@ -3,6 +3,12 @@
         "target": "es5",
         "module": "commonjs",
         "noImplicitAny": true,
-        "strictNullChecks": true
-    }
+        "strictNullChecks": true,
+        "isolatedModules": true
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules"]
 }
+// 각 폴더는 독립적으로 TypeScript 컴파일을 수행합니다.
+// exclude 설정으로 다른 폴더의 파일들은 무시됩니다.
+// isolatedModules 옵션으로 각 파일이 독립적으로 컴파일됩니다.
